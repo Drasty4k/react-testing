@@ -5,6 +5,7 @@ import { Skills } from './components/skills/skills';
 function App() {
   return (
     <div className="App">
+      <Application />
       <Skills skills={["HTML", "CSS"]} />
     </div>
   );
